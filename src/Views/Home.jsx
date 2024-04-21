@@ -1,8 +1,8 @@
 // src/views/Home.js
 import React, { useState } from 'react';
-import Button from '../components/Button';
-import { fetchActivity } from '../controllers/ActivityController';
-import Activity from '../models/ActivityModel';
+import Button from '../Components/Button';
+import { fetchActivity } from '../Controllers/ActivityController';
+import Activity from '../Models/ActivityModel';
 
 const Home = () => {
   const [activity, setActivity] = useState('');
